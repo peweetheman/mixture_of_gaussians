@@ -1,7 +1,7 @@
 # Mixture of Gaussians
 ## Patrick Phillips
 
-This project contains code for expectation maximization (EM) algorithm for a mixture of gaussians model. The EM algorithm derivation can be found at ![CSC 446 Machine Learning Lecture Notes](https://www.cs.rochester.edu/~gildea/2019_Spring/notes.pdf). Using a mixture of gaussian model in expectation maximization is extremely common, and the EM algorithm in this case iteratively updates the covariance matrix, and mean and weight of each cluster. Here is a video displaying how the algorithm learns the means, run on a two dimensional data set run with 10 clusters (the red plus represents the mean of the cluster).
+This project contains code for expectation maximization (EM) algorithm for a mixture of gaussians model. The EM algorithm derivation can be found at ![CSC 446 Machine Learning Lecture Notes](https://www.cs.rochester.edu/~gildea/2019_Spring/notes.pdf). Using a mixture of gaussian model in expectation maximization is extremely common, and the EM algorithm in this case iteratively updates the covariance matrix, and mean and weight of each cluster. Here is a video displaying how the algorithm learns the means, run on a two dimensional data set run with 10 clusters (the red plus represents the mean of the cluster). Link to test ![test](test.md)
 
 {% include youtubePlayer.html id="https://youtu.be/3KPi198lv8U"#}
 
