@@ -1,8 +1,7 @@
 # Mixture of Gaussians
 ## Patrick Phillips
 
-This project contains code for expectation maximization (EM) algorithm for a mixture of gaussians model. We are given a 
-data set={x_1, . . . , x_N} where $x_i$ is ad-dimensional vector measurement. Assume thatthe points are generated in an IID fashion from an underlying densityp(x). We further assume thatp(x)isdefined as a finite mixture model withKcomponents 
+This project contains code for expectation maximization (EM) algorithm for a mixture of gaussians model. The EM algorithm is derived assuming we are given a data set D={$$x_1$$, . . . , $$x_N$$} where $$x_i$$ is a d-dimensional vector measurement. Assume thatthe points are generated in an IID fashion from an underlying density. 
 ![](Log-Likelihood_vs_Iterations%20(not%20args.tied,%202%20clusters).png)
 
 After experimenting with different usage of hyperparameters I first found that increasing clusters was useful to an extent.
