@@ -3,7 +3,7 @@
 
 This project contains code for expectation maximization (EM) algorithm for a mixture of gaussians model. We are given a 
 data set={x_1, . . . , x_N} where $x_i$ is ad-dimensional vector measurement. Assume thatthe points are generated in an IID fashion from an underlying densityp(x). We further assume thatp(x)isdefined as a finite mixture model withKcomponents 
-![](Log-Likelihood_vs_Iterations (not args.tied, 2 clusters).png)
+![](Log-Likelihood_vs_Iterations%20(not%20args.tied,%202%20clusters).png)
 
 After experimenting with different usage of hyperparameters I first found that increasing clusters was useful to an extent.
 But as expected, increasing clusters did not help much after about 10 clusters, and there was overfitting that occured around 30 clusters varying with the number of iterations used.
