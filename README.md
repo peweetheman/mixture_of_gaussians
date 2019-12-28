@@ -12,9 +12,11 @@ I used development data in my final implementation to first choose the optimal n
 This usage of devlopment data seemed intuitive to me as it: 
 (1) checks how many clusters can really effectively capture what patterns the data holds, and 
 (2) finds how much those clusters need to be trained (how many iterations).
-I have many graphs attatched with labels indicating what parameters were fixed and which were varied and plotted. Here are a few examples:
+I have many graphs attatched with labels indicating what parameters were fixed and which were varied and plotted. Here is one that plots the log likelihood(likelihood of the test data given the model) versus the number of iterations:
 
 ![](Log-Likelihood_vs_Iterations%20(not%20args.tied,%202%20clusters).png)
+
+And here is another plotting the log likelihood versus the number of clusters (after 10 iterations of updates):
 
 ![](Log-Likelihood_vs_Num_Clusters.png)
 
